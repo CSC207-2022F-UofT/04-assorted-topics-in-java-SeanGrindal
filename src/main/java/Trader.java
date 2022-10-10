@@ -19,7 +19,6 @@ public class Trader<T> {
     private final List<T> wishlist;
     private int money;
 
-
     /**
      * Construct a Trader, giving them the given inventory,
      * wishlist, and money.
@@ -28,8 +27,7 @@ public class Trader<T> {
      * @param wishlist  Objects in this Trader's wishlist
      * @param money     The Trader's money
      */
-    public Trader(List<T> inventory, List<T> wishlist,
-                  int money) {
+    public Trader(List<T> inventory, List<T> wishlist, int money) {
         this.inventory = inventory;
         this.wishlist = wishlist;
         this.money = money;
@@ -48,7 +46,7 @@ public class Trader<T> {
     /* TODO: Implement the method addToWishlist that takes an
      *       object of type T and adds it to this Trader's wishlist.
      */
-    public void addToWishList(T item) {
+    public void addToWishlist(T item) {
         this.wishlist.add(item);
     }
 

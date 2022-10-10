@@ -1,7 +1,6 @@
 /* A sample class that implements all interfaces except Tradable.
  */
 public class Unicorn implements Drivable, Domesticatable {
-
     private int maxSpeed;
 
     public Unicorn() {
@@ -27,5 +26,4 @@ public class Unicorn implements Drivable, Domesticatable {
     public int getMaxSpeed() {
         return this.maxSpeed;
     }
-
 }
